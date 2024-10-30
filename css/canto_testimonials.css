@@ -1,0 +1,83 @@
+blockquote {
+  font-style: oblique;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-color: #f2f5f7;
+  font-size: 17px;
+  line-height: 27px;
+  margin: 10px 10px 20px;
+  border-width: 0 0 0 3px;
+  border-style: solid;
+}
+blockquote strong {
+  display: block;
+  text-align: right;
+  margin-right: 10px;
+}
+blockquote small {
+  display: block;
+  text-align: right;
+  margin-right: 10px;
+}
+.testimonials-slider blockquote {
+  background: #fbfcfd;
+  border-width: 0;
+  position: relative;
+  margin: 0 0 25px 0;
+}
+.testimonials-slider blockquote strong {
+  margin-top: 30px;
+}
+/*
+ * Bx Slider CSS
+ */
+.bx-controls .bx-controls-direction {
+  *zoom: 1;
+}
+.bx-controls .bx-controls-direction:before,
+.bx-controls .bx-controls-direction:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.bx-controls .bx-controls-direction:after {
+  clear: both;
+}
+.bx-controls .bx-controls-direction .bx-prev {
+  top: auto;
+  left: 50%;
+  margin-left: -33px;
+}
+.bx-controls .bx-controls-direction .bx-next {
+  top: auto;
+  right: 50%;
+  margin-right: -33px;
+}
+.bx-controls .bx-controls-direction a {
+  width: 30px;
+  height: 30px;
+  bottom: -30px;
+  background: #f2f5f7;
+  color: #b3c4d0;
+  text-align: center;
+  text-indent: 0;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 19px;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.bx-controls .bx-controls-direction a:not(.disabled):hover {
+  color: #00baff;
+}
+.bx-controls .bx-controls-direction a.disabled {
+  display: block;
+  opacity: 0.5;
+  cursor: default;
+}
+/*
+ * Bx Slider CSS End
+ */
